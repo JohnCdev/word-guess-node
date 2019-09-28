@@ -17,14 +17,16 @@ Word.prototype.checkGuess = function (abc) {
     })
 }
 
-// tests
+//tests
 // var testWord = new Word([new Letter("i"), new Letter("s")]);
 
-// console.log(testWord.returnWord());
-// testWord.checkGuess('s');
-// console.log(testWord.returnWord());
-// testWord.checkGuess('i');
-// console.log(testWord.returnWord());
+// // console.log(testWord.returnWord());
+// // testWord.checkGuess('s');
+// // console.log(testWord.returnWord());
+// // testWord.checkGuess('i');
+// // console.log(testWord.returnWord());
+// console.log(testWord)
+// testWord.checkFinished(testWord)
 
 
 module.exports = Word;

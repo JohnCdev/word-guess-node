@@ -2,7 +2,13 @@ function Letter(curLetter) {
     this.curLetter = curLetter;
     this.guessed = false;
     this.checkGuess = function (abc) {
-        abc.toLowerCase() === this.curLetter ? this.guessed = true : false;
+        // abc.toLowerCase() === this.curLetter ? this.guessed = true : false;
+        if(abc.toLowerCase() === this.curLetter) {
+            this.guessed = true;
+            return console.log("\x1b[32m%s\x1b[0m", "\n" + "Correct!!")
+        } else {
+            return;
+        }
     }
 }
 
