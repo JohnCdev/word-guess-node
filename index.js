@@ -31,7 +31,7 @@ function inquireGame() {
 ${numGuesses} guesses left!`);
     }
     console.log(`
-    ${selectedWord.returnWord()}
+    ${selectedWord.returnWord().join(" ")}
     `);
     inquirer
         .prompt([
